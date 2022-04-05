@@ -28,3 +28,4 @@ for f in files:
 
 
     #print(f, file=open('C:\\_Output\\DBF.txt', 'a+'))
+    #https://docs.python.org/3.6/library/pathlib.html#module-pathlib path manipulation stuff
