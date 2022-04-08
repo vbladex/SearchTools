@@ -10,7 +10,7 @@ for r, d, f in os.walk(path):
 
 for f in filelist:
     if "Quarter" in f:
-        print(f, 'Quarter')
+        print(f, '        Quarter')
     else:
         print(f, 'NotQuarter')
 
