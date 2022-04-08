@@ -1,19 +1,18 @@
 import os
 import json
 
-path = 'C:\\Yield\\AgIntegrated'
-files = []
+path = 'C:\\Users\\LundbladeA\\Reed Elsevier Group ICO Reed Elsevier Inc\\OG-ProAM agX - Product - Troubleshooting\\HeartlandSoilSampling\\2022-04-08\\LargeExtentsPatrickQuarter\\EarlyOutQA\\Extract'
+filelist = []
 for r, d, f in os.walk(path):
     for file in f:
         if '.json' in file:
-            files.append(os.path.join(r, file))
+            filelist.append(os.path.join(r, file))
 
-for f in files:
-    json.loads(['MonitorName'])
-    if 'Corn' in files:
-        print(files, 'Corn')
+for f in filelist:
+    if "Quarter" in f:
+        print(f, 'Quarter')
     else:
-        print(files, 'NotCorn')
+        print(f, 'NotQuarter')
 
-# print(f, file=open('C:\\_Output\\DBF.txt', 'a+'))
+# print(f, files=open('C:\\_Output\\DBF.txt', 'a+'))
 # https://docs.python.org/3.6/library/pathlib.html#module-pathlib path manipulation stuff
