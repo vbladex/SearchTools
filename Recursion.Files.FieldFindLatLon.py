@@ -11,7 +11,7 @@ for r, d, f in os.walk(path):
 for f in files:
     json.loads(['MonitorName'])
     if 'Corn' in files:
-        print('Corn')
+        print(files, 'Corn')
     else:
         print(files, 'NotCorn')
 
