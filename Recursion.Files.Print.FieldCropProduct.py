@@ -10,3 +10,4 @@ for folder, dirs, file in os.walk(rootdir):
             fullpath = open(os.path.join(folder, files), 'r')
             with open(os.path.join(folder, files)) as f:
                 d = json.load(f)
+                print(f, d["FieldName"])
