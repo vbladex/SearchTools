@@ -16,3 +16,4 @@ for f in filelist:
 
 # print(f, files=open('C:\\_Output\\DBF.txt', 'a+'))
 # https://docs.python.org/3.6/library/pathlib.html#module-pathlib path manipulation stuff
+#not sure this works
